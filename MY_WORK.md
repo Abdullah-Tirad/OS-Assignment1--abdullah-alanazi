@@ -129,16 +129,19 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [9/28/2026]
+**What I did**: Forked the repository and set up my student ID 
+and downloaded the needed tools 
 
 **Details**:
+- Created GitHub account with university email
+- Forked the starter repository and renamed it to "OS-Assignment1--abdullah-alanazi"
+- Changed student ID on line 150 to my actual ID (439051786)
+**Challenges**: navigating github and getting familiar with it's interface and tools
 
-**Challenges**:
+**Solution**: searched multiple sources online and referred to README.md steps
 
-**Solution**:
-
-**Time spent**:
+**Time spent**: approx. 1hr
 
 ---
 
