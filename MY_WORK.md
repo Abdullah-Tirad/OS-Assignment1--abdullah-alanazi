@@ -145,16 +145,19 @@ and downloaded the needed tools
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**:
+### Entry 2 - [10/7/2026 1:07 am]
+**What I did**: Feature 1: Added priority field to Process class
 
-**Details**:
+**Details**: 
+- I added both a setter and a getter for priority in the code
+- Assigned a random priority between 1 and 10
+- verified that the priority showed in the output  
 
-**Challenges**:
+**Challenges**: challenges i faced today were downloading and installing the appropriate JDK, And pushing my VS code to git.
 
-**Solution**:
+**Solution**: referred to Oracle page for getting the appropriate JDK, searched online and for steps to link my git to VS code.
 
-**Time spent**:
+**Time spent**: approx. 2hrs
 
 ---
 
