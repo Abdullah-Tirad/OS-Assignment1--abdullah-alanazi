@@ -161,16 +161,20 @@ and downloaded the needed tools
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 3 - [10/10/2026 1:50 pm]
+**What I did**: Feature 2: Implemented context switch counter
+
 
 **Details**:
+- implemented a context switch counter to track switches between different processes
+- Updated the program to display the total number of context switches at the end of the simulation
+- Tested the simulation and verified that it completed successfully, displaying 23 context switches in the latest run
+  
+**Challenges**: getting the counter to work as intended
 
-**Challenges**:
+**Solution**: referred to online sources 
 
-**Solution**:
-
-**Time spent**:
+**Time spent**: approx. 45 mins
 
 ---
 
