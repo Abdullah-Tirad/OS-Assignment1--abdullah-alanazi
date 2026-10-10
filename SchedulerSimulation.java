@@ -149,6 +149,8 @@ class Process implements Runnable {
 }
 
 public class SchedulerSimulation {
+    // Feature 2: Tracks CPU context switches
+    static int contextSwitchCount = 0;
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here to seed the random number generator
         // This makes your output unique to you - DO NOT forget to change this!
@@ -221,10 +223,15 @@ public class SchedulerSimulation {
                           Colors.RESET + "\n");
         
         // Loop to manage the scheduling of processes
-        while (!processQueue.isEmpty()) {
+        Thread previousThread = null;
+        while (!processQueue.isEmpty()) {   
             // Get the next thread from the queue (FIFO)
             Thread currentThread = processQueue.poll(); // Dequeues the next thread
-            
+
+            // Count a context switch when changing to a different process
+            if (previousThread != null && previousThread != currentThread) {
+                contextSwitchCount++;
+            }
             // Print the current process queue (list of process IDs in the queue)
             System.out.println(Colors.BOLD + Colors.MAGENTA + "┌─ Ready Queue " + "─".repeat(65) + Colors.RESET);
             System.out.print(Colors.MAGENTA + "│ " + Colors.RESET + Colors.BRIGHT_WHITE + "[" + Colors.RESET);
@@ -250,6 +257,7 @@ public class SchedulerSimulation {
             } catch (InterruptedException e) {
                 System.out.println("Main thread interrupted.");
             }
+            previousThread = currentThread;
             
             // Retrieve the process associated with the thread from the map
             Process process = processMap.get(currentThread);
@@ -266,8 +274,10 @@ public class SchedulerSimulation {
                                       Colors.RESET + Colors.YELLOW + " is the last process → running to completion" + 
                                       Colors.RESET);
                     process.runToCompletion(); // Run until the process completes
+                   
                 }
             }
+             System.out.println("Total context switches: " + contextSwitchCount);
         }
         
         // End of the scheduler simulation
