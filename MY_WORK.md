@@ -225,13 +225,13 @@ and downloaded the needed tools
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [5-6 hours]
 
-**Most challenging part**:
+**Most challenging part**: definitely getting the "waiting time" and "turn around time" to work correctly which took tracking when each process entered the ready queue and executed. 
 
-**Most interesting learning**:
+**Most interesting learning**: How all the processes share the cpu , it's like a room/office they enter to execute their tasks and they all share it.
 
-**What I would do differently next time**:
+**What I would do differently next time**: work more consistently and start earlier :( 
 
 ---
 
