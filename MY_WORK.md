@@ -313,7 +313,7 @@ and so on so forth]
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[well the process has it's own memory space wile a thread shares it's memory within the same process which in turn makes the communication between threads faster and easier In SchedulerSimulation.java, we used new Thread and currentThread.start() to execute processes as threads, and currentThread.join() to wait for each thread to finish its turn, avoiding the greater overhead of creating separate operating-system processes.]
 
 ## Question 2: Ready Queue Behavior
 
@@ -325,15 +325,21 @@ and so on so forth]
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[if a process doesn't finish within its time quantum it has to yield CPU for context switch for p11 since it's executing quantum is 2000ms and it has a burst time of 4473ms it yielded the cpu and requeued 3 times before it finished executing, requeuing is fair so that each process gets it's piece of pie so to speak.  ]
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+[ ? P11 executing quantum [2000ms] 
+  ? Quantum progress: [███████████████] 100%
+  ? P11 completed quantum 2000ms │ Overall progress: [████████░░░░░░░░░░░░] 44%
+     Remaining time: 2473ms
+  ? P11 yields CPU for context switch
+
+  ? P11 added to ready queue | priority: 6 │ Burst time: 4473ms]
 ```
 
 **Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+[p11 has an executing quantum of 2000ms i think of it as the time p11 has to chip off it's burst time before it has to yield the cpu the rest is pretty straight forward.]
 
 ## Question 3: Thread Lifecycle
 
@@ -343,7 +349,7 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: [When is P1 in the New state? ]
 
 2. **Runnable**: [When does P1 become Runnable?]
 
