@@ -349,15 +349,15 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state? ]
+1. **New**: [When is P1 in the New state? P1 enters the new state when its thread object is created in addProcessToQueue(), but it has not started yet. ]
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: [When does P1 become Runnable? P1 becomes Runnable when the scheduler calls currentThread.start(), making it able to run. ]
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: [When is P1 Running? P1 executes its run() method when the CPU schedules it, simulating work with Thread.sleep(). ]
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+4. **Waiting**: [When and why would a thread be Waiting? P1 thread enters the Timed Waiting state during Thread.sleep(), while the main scheduler thread waits for P1 to finish using currentThread.join(). ]
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: [When is P1 Terminated? P1 enters the Terminated state when its run() method finishes and the thread completes execution. ]
 
 ## Question 4: Real-World Applications
 
