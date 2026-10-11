@@ -251,7 +251,10 @@ and downloaded the needed tools
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[
+I learned that threads are similar to class in that you can start it with .start and it can execute it's code independently although a class is started with class classname ,but the similarity lies in that it can be independent.    
+I know that Thread.join() is a command to wait for all processes to finish executing and to use it before printing the output, but what surprised me was how the output differs each time i run the program it really "simulates" what i learned on paper that processes enter and exit the cpu at different times/according to what algorithm i use. 
+]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -259,7 +262,9 @@ and downloaded the needed tools
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[
+definitely navigating github it was very alien to me i've never worked with it before. that being said this assignment had very informative step by step instuctions that made it easier to digest. 
+]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -267,7 +272,7 @@ and downloaded the needed tools
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I divided my sessions to each feature in which i would start by understanding where to start and each time i get faced with something i don't know how to do i would go back to readme.md, then if that doesn't work i would look it up online and try to solve the problem my self ,finally i would ask AI but make sure i understood how it solved my problem ]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -275,7 +280,8 @@ and downloaded the needed tools
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[well if my understanding of threads is correct then they are very useful to have, I play a lot of videogames so i would imagine the processes in the games are divided to run on different threads to improve responsiveness and lower latency, for example one thread could be responsible for audio and another for phisics 
+and so on so forth]
 
 ### Optional: What would you like to learn more about?
 
