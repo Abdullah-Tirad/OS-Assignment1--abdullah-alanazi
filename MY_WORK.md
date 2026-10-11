@@ -367,32 +367,32 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences per example)*
 
-### Example 1 (operating-system level): [Name of scenario]
+### Example 1 (operating-system level): [CPU Scheduling]
 
 **Description**:
-[Describe the real-world scenario.]
+[An operating system can use Round-Robin scheduling to share CPU time among multiple processes or threads. Each process receives a fixed time quantum, and if it does not finish, it waits at the back of the ready queue for another turn.]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[It promotes fairness by giving each process a chance to use the CPU or it's piece of pie so to speak. Context switches allow the operating system to move between processes, improving responsiveness.]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [valorant Game Server // valorant is the name of a multiplayer game]
 
 **Description**:
-[Describe the real-world scenario or application.]
+[In valorant, the game server handles tasks such as updating player positions, processing actions, and checking hits. These tasks can be compared to processes in our simulation, with processing time shared between tasks.]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[A Round-Robin-like approach could give tasks turns to execute, helping prevent one task from hogging processing time. However, valorants actual server scheduling is complex and i'm not sure it uses Round-Robin specifically but after looking it up they do use it for website traffic.]
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1.the thread lifcycle
+2.how round robin gives each process cpu time
+3.ready queue behavior can change passed on the scheduling algo you use  
 
 **Concepts I need to study more:**
-1.
-2.
+1.threading 
+2.context switching 
 
 ---
 
