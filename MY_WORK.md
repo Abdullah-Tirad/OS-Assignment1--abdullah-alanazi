@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | [Abdullah Tirad Alanazi] |
+| **Student ID** | [439051786] |
+| **University Email** | [439051786]@std.psau.edu.sa |
+| **GitHub Username** | [Abdullah-Tirad] |
+| **Repository Link** | [[Paste your repository link here](https://github.com/Abdullah-Tirad/OS-Assignment1--abdullah-alanazi)] |
  
 ---
 
@@ -129,42 +129,52 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [9/28/2026]
+**What I did**: Forked the repository and set up my student ID 
+and downloaded the needed tools 
 
 **Details**:
+- Created GitHub account with university email
+- Forked the starter repository and renamed it to "OS-Assignment1--abdullah-alanazi"
+- Changed student ID on line 150 to my actual ID (439051786)
+**Challenges**: navigating github and getting familiar with it's interface and tools
 
-**Challenges**:
+**Solution**: searched multiple sources online and referred to README.md steps
 
-**Solution**:
-
-**Time spent**:
+**Time spent**: approx. 1hr
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**:
+### Entry 2 - [10/7/2026 1:07 am]
+**What I did**: Feature 1: Added priority field to Process class
 
-**Details**:
+**Details**: 
+- I added both a setter and a getter for priority in the code
+- Assigned a random priority between 1 and 10
+- verified that the priority showed in the output  
 
-**Challenges**:
+**Challenges**: challenges i faced today were downloading and installing the appropriate JDK, And pushing my VS code to git.
 
-**Solution**:
+**Solution**: referred to Oracle page for getting the appropriate JDK, searched online and for steps to link my git to VS code.
 
-**Time spent**:
+**Time spent**: approx. 2hrs
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 3 - [10/10/2026 1:50 pm]
+**What I did**: Feature 2: Implemented context switch counter
+
 
 **Details**:
+- implemented a context switch counter to track switches between different processes
+- Updated the program to display the total number of context switches at the end of the simulation
+- Tested the simulation and verified that it completed successfully, displaying 23 context switches in the latest run
+  
+**Challenges**: getting the counter to work as intended
 
-**Challenges**:
+**Solution**: referred to online sources 
 
-**Solution**:
-
-**Time spent**:
+**Time spent**: approx. 45 mins
 
 ---
 
