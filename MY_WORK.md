@@ -178,16 +178,20 @@ and downloaded the needed tools
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**:
+### Entry 4 - [10/11/2026 7:50 pm]
+**What I did**:feature 3: Track Waiting Time
 
 **Details**:
+- Process Creation Time: Records the time each process is created using System.currentTimeMillis().
+- Waiting Time Tracking: Tracks how long each process waits in the ready queue before getting CPU time.
+- Turnaround Time Calculation: Calculates turnaround time as Waiting Time + Burst Time.
+-Process Summary Table: Displays each process’s name, burst time, waiting time, and turnaround time when scheduling finishes.
 
-**Challenges**:
+**Challenges**: process summary table code
 
-**Solution**:
+**Solution**: tried to emulate the previous code that didn't work so i got Ai TO help but understood the idea 
 
-**Time spent**:
+**Time spent**: approx. 1.5 hrs
 
 ---
 
